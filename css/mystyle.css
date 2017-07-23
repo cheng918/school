@@ -1,0 +1,157 @@
+body{
+    font-family: "microsoft yahei";
+    background-color: #B9B9B9;
+}
+.navbar-inverse{
+    border:none;
+    box-shadow: 0px 2px 8px #8b8b8b;
+}
+.navbar-inverse .navbar-brand{
+    font-size: 26px;
+    font-weight: 900;
+    color:#f1f1f1;
+    height: 75px;
+    line-height: 40px;
+}
+.navbar-inverse .navbar-brand:hover{
+    color:#ac2925;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:#f1f1f1;
+    font-size: 16px;
+    font-weight: 900;
+    line-height:40px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#ac2925;
+}
+.navbar-inverse .navbar-toggle{
+    border-color:#f1f1f1;
+    margin-top:20px;
+}
+.navbar-inverse .navbar-toggle:hover{
+    background-color:#ac2925;
+}
+
+/*HOME*/
+#home{
+    color:#fff;
+    margin-top:70px;
+    text-align: center;
+    width:100%;
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+#home h1{
+    font-weight: 900;
+}
+#myPic{
+    margin-top: 30px;
+}
+
+
+/*myPhoto*/
+#myPhoto{
+    background-color: #222222;
+}
+#myPhoto h1,#myPhoto h3{
+    text-align: center;
+
+}
+#myPhoto{
+    color: #f8f8f8;
+}
+#myPhoto a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+#myPhoto p{
+    text-align: right;
+}
+#myPhoto a:hover{
+    color:#ac2925;
+}
+.screen,.memory{
+    border-bottom: dotted #fff 1px;
+}
+#myPhoto img{
+    margin-top:80px;
+    background-color: #A6A6A6;
+    border:none;
+    width:100%;
+}
+
+/*intro*/
+#intro{
+    background-color: #fff;
+    padding-top: 40px;
+}
+article{
+    padding-bottom: 80px;
+}
+
+
+
+
+/*footer*/
+
+footer{
+    text-align: center;
+    padding: 30px;
+    color:#f8f8f8;
+    background: #222222;
+}
+#bh {
+    position: fixed;
+    opacity: 0.7;
+    z-index: 200;
+}
+@media screen and (min-width: 992px) {
+    #bh{
+        right:2%;
+        bottom:20%;
+    }
+    #home{
+        background: url("../img/111.jpg") no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    #bh{
+        right:2%;
+        bottom:20%;
+    }
+    #home{
+        background: url("../img/01.jpg") no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 767px){
+    #bh{
+        right:0;
+        bottom:10%;
+        transform: scale(0.7);
+    }
+
+}
+
+
+
+#resume{
+    display: none;
+}
+
+/*#zz{*/
+    /*text-align: center;*/
+    /*position: fixed;*/
+    /*left:0;*/
+    /*top:0;*/
+    /*width:100%;*/
+    /*height:100%;*/
+    /*z-index: 99999;*/
+    /*background: #000;*/
+    /*opacity: 0.95;*/
+/*}*/
+#zz h3{
+    margin-top: 20%;
+}
